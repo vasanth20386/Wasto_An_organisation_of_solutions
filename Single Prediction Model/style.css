@@ -1,0 +1,21 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+  background-color: #ffffff;
+  -webkit-transition: background-color 400ms linear;
+  -ms-transition: background-color 400ms linear;
+  transition: background-color 400ms linear;
+}
+
+#logo:hover {
+  background-color: #212529;
+  -webkit-transition: background-color 400ms ease-in;
+  -ms-transition: background-color 400ms ease-in;
+  transition: background-color 400ms ease-in;
+}
+
+.bold{
+  font-weight: bold;
+}
